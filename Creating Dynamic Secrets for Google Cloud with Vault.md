@@ -1,0 +1,73 @@
+## Creating Dynamic Secrets for Google Cloud with Vault
+
+
+
+
+
+### ⚠️ **Disclaimer**  
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; border-radius: 4px; margin: 20px 0;">
+
+📌 **Important Notice**  
+
+This educational material is provided **for learning purposes only** to help you:  
+- Understand Google Cloud lab services  
+- Enhance your technical skills  
+- Advance your cloud computing career  
+
+**Before using any scripts or guides:**  
+1. Always review the content thoroughly  
+2. Complete labs through official channels first  
+3. Comply with [Qwiklabs Terms of Service](https://www.qwiklabs.com/terms_of_service)  
+4. Adhere to [YouTube Community Guidelines](https://www.youtube.com/howyoutubeworks/policies/community-guidelines/)  
+
+❌ **Not intended** to bypass legitimate learning processes  
+✅ **Meant to supplement** your educational journey  
+
+</div>
+
+
+
+### © **Credit & Attribution**  
+
+<div style="background-color: #e7f5ff; padding: 15px; border-left: 5px solid #4dabf7; border-radius: 4px; margin: 20px 0;">
+
+**Original Content Rights:**  
+All rights and credit for the original lab content belong to:  
+🔹 [Google Cloud Skill Boost](https://www.cloudskillsboost.google/)  
+🔹 Google LLC  
+
+**Copyright Notice:**  
+- DM for credit/removal requests  
+- No copyright infringement intended  
+- Educational fair use purpose only  
+
+🙏 **Acknowledgement:**  
+We gratefully acknowledge Google's learning resources that make cloud education accessible  
+
+</div>
+
+```
+curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault1/cloudwalejiju.sh
+sudo chmod +x cloudwalejiju.sh
+./cloudwalejiju.sh
+```
+
+
+
+<div align="center">
+
+<h3>🌟 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey! 🌟</h3>
+
+<div align="center">
+
+<h3 style="font-family: 'Segoe UI', sans-serif; color: linear-gradient(90deg, #4F46E5, #E114E5);">🌟 Connect with Cloud Enthusiasts 🌟</h3>
+<p style="font-family: 'Segoe UI', sans-serif;">Join the community, share knowledge, and grow together!</p>
+
+
+
+
+
+<!-- X (Twitter) -->
+
+</div>
