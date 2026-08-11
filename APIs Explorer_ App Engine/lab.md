@@ -12,9 +12,10 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/APIs%20Explorer%3A%20App%20Engine/cloudwalejiju.sh
+curl -LO http://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/refs/heads/main/APIs%20Explorer_%20App%20Engine/cloudwalejiju.sh
 sudo chmod +x cloudwalejiju.sh
 ./cloudwalejiju.sh
+
 ```
 ### Congratulations !!!!
 
