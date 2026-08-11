@@ -11,26 +11,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/APIs%20Explorer%3A%20Create%20and%20Update%20a%20Cluster/cloudwalejiju.sh
-sudo chmod +x cloudwalejiju.sh
-./cloudwalejiju.sh
+curl -LO https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/refs/heads/main/APIs%20Explorer_%20Create%20and%20Update%20a%20Cluster/cloudwalejijaji.sh
+sudo chmod +x cloudwalejijaji.sh
+./cloudwalejijaji.sh
 ```
 <div align="center">
 
-<h3>🌟 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey! 🌟</h3>
-<div align="center">
-
-<h3 style="font-family: 'Segoe UI', sans-serif; color: linear-gradient(90deg, #4F46E5, #E114E5);">🌟 Connect with Cloud Enthusiasts 🌟</h3>
-<p style="font-family: 'Segoe UI', sans-serif;">Join the community, share knowledge, and grow together!</p>
-
-
-
-<a href="https://www.whatsapp.com/channel/0029VbCB6SpLo4hdpzFoD73f" target="_blank" style="text-decoration: none;">
-  <img src="https://img.shields.io/badge/-Join_WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=25D366" alt="WhatsApp Channel"/>
-</a>
-
-
-
-
-
-</div>

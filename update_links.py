@@ -2,9 +2,10 @@ import os
 import re
 
 def update_markdown_files(directory):
-    # Regex to find the target URL
-    # It starts with the repository base URL and captures the rest of the URL until it hits a whitespace or backtick/quote
-    url_pattern = re.compile(r'(https://raw\.githubusercontent\.com/cloudwalejiju-a11y/samosalabs1/[^\s`"\']*)')
+    # Regex to find either the old repository base or the new repository base
+    url_pattern = re.compile(
+        r'(https?://raw\.githubusercontent\.com/(?:cloudwalejiju/GoogleCloudSkillsboost|cloudwalejiju-a11y/samosalabs1)/[^\s`"\']*)'
+    )
     
     updated_files_count = 0
     
@@ -31,10 +32,20 @@ def update_markdown_files(directory):
                 new_content = content
                 
                 for url in urls:
-                    # If the URL contains '%3A' or '%3a', replace it with '_'
-                    if '%3A' in url or '%3a' in url:
-                        # Replace case-insensitively
-                        updated_url = re.sub(r'%3[Aa]', '_', url)
+                    # Upgrade the base to https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/
+                    updated_url = url.replace(
+                        "http://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/",
+                        "https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/"
+                    ).replace(
+                        "https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/",
+                        "https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/"
+                    )
+                    
+                    # If the URL contains '%3C' or '%3A' or '%3a', replace it with '_'
+                    if '%3A' in updated_url or '%3a' in updated_url:
+                        updated_url = re.sub(r'%3[Aa]', '_', updated_url)
+                    
+                    if updated_url != url:
                         new_content = new_content.replace(url, updated_url)
                         modified = True
                         print(f"Updated URL in {file}:\n  Old: {url}\n  New: {updated_url}\n")

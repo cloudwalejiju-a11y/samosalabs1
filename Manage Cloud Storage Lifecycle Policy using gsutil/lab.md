@@ -1,0 +1,69 @@
+## Manage Cloud Storage Lifecycle Policy using gsutil
+
+
+
+
+### ⚠️ Disclaimer
+- **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
+
+### ©Credit
+- **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
+
+
+### Run the following Commands in CloudShell
+
+```
+# I Know you will Steal it
+PROJECT_ID=$(gcloud config get-value project)
+
+cat <<EOF > lifecycle.json
+{
+  "rule": [
+    {
+      "action": {
+        "type": "SetStorageClass",
+        "storageClass": "NEARLINE"
+      },
+      "condition": {
+        "daysSinceNoncurrentTime": 30,
+        "matchesPrefix": ["projects/active/"]
+      }
+    },
+    {
+      "action": {
+        "type": "SetStorageClass",
+        "storageClass": "NEARLINE"
+      },
+      "condition": {
+        "daysSinceNoncurrentTime": 90,
+        "matchesPrefix": ["archive/"]
+      }
+    },
+    {
+      "action": {
+        "type": "SetStorageClass",
+        "storageClass": "COLDLINE"
+      },
+      "condition": {
+        "daysSinceNoncurrentTime": 180,
+        "matchesPrefix": ["archive/"]
+      }
+    },
+    {
+      "action": {
+        "type": "Delete"
+      },
+      "condition": {
+        "age": 7,
+        "matchesPrefix": ["processing/temp_logs/"]
+      }
+    }
+  ]
+}
+EOF
+
+
+gsutil lifecycle set lifecycle.json gs://$PROJECT_ID-bucket
+```
+### Congratulations !!!!
+

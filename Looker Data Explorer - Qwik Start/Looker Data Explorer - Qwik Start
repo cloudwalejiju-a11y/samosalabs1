@@ -1,0 +1,22 @@
+
+# Place in `faa` model
+explore: +airports {
+    query: drabhishek_task1 {
+      measures: [average_elevation]
+    }
+  }
+
+
+
+# Place in `faa` model
+explore: +airports {
+    query: DrAbhishek_task_2 {
+      dimensions: [facility_type]
+      measures: [average_elevation, count]
+    }
+  }
+
+
+
+
+

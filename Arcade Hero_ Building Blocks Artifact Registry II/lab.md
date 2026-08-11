@@ -13,9 +13,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/Arcade%20Hero%3A%20Building%20Blocks%20Artifact%20Registry%20II/cloudwalejiju.sh
-sudo chmod +x cloudwalejiju.sh
-./cloudwalejiju.sh
+curl -LO https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/refs/heads/main/Arcade%20Hero_%20Building%20Blocks%20Artifact%20Registry%20II/cloudwalejijaji.sh
+sudo chmod +x cloudwalejijaji.sh
+./cloudwalejijaji.sh
 ```
 
 
@@ -23,10 +23,6 @@ sudo chmod +x cloudwalejiju.sh
 <div align="center">
   
 # Congratulations !!!!
-
-Connect with fellow cloud enthusiasts, ask questions, and share your learning journey.
-
-[![Subscribe on YouTube](https://img.shields.io/badge/-Subscribe%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000)](https://www.youtube.com/@cloudwalejijaji?sub_confirmation=1)  
 
 *Let's grow together in the cloud computing world!*
 

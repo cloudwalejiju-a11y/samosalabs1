@@ -73,6 +73,3 @@ gcloud storage buckets add-iam-policy-binding gs://$BUCKET_NAME \
 
 # Congratulations🎉! You're all done with this Lab.
 
-Connect with fellow cloud enthusiasts, ask questions, and share your learning journey.  
-
-[![YouTube](https://img.shields.io/badge/Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@cloudwalejijaji?sub_confirmation=1)  

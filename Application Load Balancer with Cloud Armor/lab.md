@@ -12,12 +12,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/cloudwalejiju.sh
-sudo chmod +x cloudwalejiju.sh
-./cloudwalejiju.sh
+curl -LO https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/cloudwalejijaji.sh
+sudo chmod +x cloudwalejijaji.sh
+./cloudwalejijaji.sh
 ```
 ### Congratulations !!!!
 
-Connect with fellow cloud enthusiasts, ask questions, and share your learning journey.  
-
-[![YouTube](https://img.shields.io/badge/Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@cloudwalejijaji?sub_confirmation=1)  

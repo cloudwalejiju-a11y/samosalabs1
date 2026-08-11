@@ -12,9 +12,9 @@
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/cloudwalejiju/GoogleCloudSkillsboost/refs/heads/main/Ab12/tf/Using%20Cloud%20Trace%20on%20Kubernetes%20Engine/cloudwalejiju.sh
-sudo chmod +x cloudwalejiju.sh
-./cloudwalejiju.sh
+curl -LO https://raw.githubusercontent.com/cloudwalejiju-a11y/samosalabs1/refs/heads/main/Ab12/tf/Using%20Cloud%20Trace%20on%20Kubernetes%20Engine/cloudwalejijaji.sh
+sudo chmod +x cloudwalejijaji.sh
+./cloudwalejijaji.sh
 ```
 
 
@@ -22,16 +22,7 @@ sudo chmod +x cloudwalejiju.sh
 
 <div align="center">
 
-<h3>🌟 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey! 🌟</h3>
-
 <div align="center">
-
-<h3 style="font-family: 'Segoe UI', sans-serif; color: linear-gradient(90deg, #4F46E5, #E114E5);">🌟 Connect with Cloud Enthusiasts 🌟</h3>
-<p style="font-family: 'Segoe UI', sans-serif;">Join the community, share knowledge, and grow together!</p>
-
-
-
-
 
 <!-- X (Twitter) -->
 
