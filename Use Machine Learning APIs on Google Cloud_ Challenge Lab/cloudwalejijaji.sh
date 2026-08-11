@@ -43,7 +43,7 @@ RESET='\033[0m'
 # Header
 echo -e "${BOLD_CYAN}╔══════════════════════════════════════════════════════╗${RESET}"
 echo -e "${BOLD_CYAN}║                                                      ║${RESET}"
-echo -e "${BOLD_CYAN}║   ${BOLD_YELLOW}Welcome to dr abhishek cloud tutorial ${BOLD_CYAN}           ║${RESET}"
+echo -e "${BOLD_CYAN}║   ${BOLD_YELLOW} ${BOLD_CYAN}           ║${RESET}"
 echo -e "${BOLD_CYAN}║                                                      ║${RESET}"
 echo -e "${BOLD_CYAN}╚══════════════════════════════════════════════════════╝${RESET}"
 echo ""
