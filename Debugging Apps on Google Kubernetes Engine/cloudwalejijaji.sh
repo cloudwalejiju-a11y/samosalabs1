@@ -24,7 +24,7 @@ RESET=`tput sgr0`
 
 # Header Section
 echo "${BG_MAGENTA}${BOLD}╔════════════════════════════════════════════════════════╗${RESET}"
-echo "${BG_MAGENTA}${BOLD}       WELCOME TO DR ABHISHEK CLOUD  TUTORIAL              ${RESET}"
+echo "${BG_MAGENTA}${BOLD}              ${RESET}"
 echo "${BG_MAGENTA}${BOLD}╚════════════════════════════════════════════════════════╝${RESET}"
 echo
 echo "${CYAN}${BOLD}          Expert Tutorial by Cloud Wale Jija Ji              ${RESET}"
