@@ -20,7 +20,7 @@ clear
 
 # ================= WELCOME =================
 echo "${CYAN_TEXT}${BOLD_TEXT}╔════════════════════════════════════════════════════════╗${RESET_FORMAT}"
-echo "${CYAN_TEXT}${BOLD_TEXT}     WELCOME TO DR ABHISHEK GUIDE : SUBSCRIBE NOW    ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}    Expert Tutorial by Cloud Wale Jija Ji     ${RESET_FORMAT}"
 echo "${CYAN_TEXT}${BOLD_TEXT}╚════════════════════════════════════════════════════════╝${RESET_FORMAT}"
 echo
 echo "${MAGENTA_TEXT}${BOLD_TEXT}     Expert Tutorial by Cloud Wale Jija Ji     ${RESET_FORMAT}"
