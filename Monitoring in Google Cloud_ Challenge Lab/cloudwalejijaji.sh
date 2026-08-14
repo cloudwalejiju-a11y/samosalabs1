@@ -74,7 +74,7 @@ echo
 # ================= UPTIME CHECK =================
 echo "${GREEN_TEXT}${BOLD_TEXT}▬▬▬▬ UPTIME CHECK ▬▬▬▬${RESET_FORMAT}"
 
-gcloud monitoring uptime create drabhishek \
+gcloud monitoring uptime create jijushek \
   --resource-type=uptime-url \
   --resource-labels=host=$VM_EXTERNAL_IP,path=/,port=80
 
@@ -87,7 +87,7 @@ echo "${GREEN_TEXT}${BOLD_TEXT}▬▬▬▬ NOTIFICATION CHANNEL ▬▬▬▬${R
 cat > email-channel.json <<EOF
 {
   "type": "email",
-  "displayName": "drabhishek",
+  "displayName": "jijushek",
   "labels": {
     "email_address": "$USER_EMAIL"
   }
@@ -161,7 +161,7 @@ gcloud logging metrics create jiju \
 logName="projects/'"$PROJECT_ID"'/logs/apache-access"
 textPayload:"200"'
 
-echo "${GREEN_TEXT}${BOLD_TEXT}✅ Log-based metric 'drabhi' created${RESET_FORMAT}"
+echo "${GREEN_TEXT}${BOLD_TEXT}✅ Log-based metric 'jiju' created${RESET_FORMAT}"
 echo
 # Section 6: Quick Links
 echo "${GREEN_TEXT}${BOLD_TEXT}▬▬▬▬▬▬▬▬ QUICK LINKS ▬▬▬▬▬▬▬▬${RESET_FORMAT}"
