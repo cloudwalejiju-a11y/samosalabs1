@@ -155,7 +155,7 @@ echo "${GREEN_TEXT}${BOLD_TEXT}▬▬▬▬ LOG-BASED METRIC ▬▬▬▬${RESET
 
 PROJECT_ID=$(gcloud config get-value project)
 
-gcloud logging metrics create drabhi \
+gcloud logging metrics create jiju \
   --description="Count Apache 200 OK responses" \
   --log-filter='resource.type="gce_instance"
 logName="projects/'"$PROJECT_ID"'/logs/apache-access"
