@@ -18,18 +18,56 @@ sudo chmod +x cloudwalejijaji.sh
 ```
 * Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
 
-1. For Log-based metric name: enter `drabhi`
+ Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
 
-2. Paste The Following in `Build filter` & Replace PROJECT_ID
+1. For 
+
+2. Paste The Following in vm (cloud shell)
 ```
-resource.type="gce_instance"
-logName="projects/PROJECT_ID/logs/apache-access"
-textPayload:"200"
+curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
+sudo bash add-google-cloud-ops-agent-repo.sh --also-install
 ```
 
 3. Paste The Following in `Regular Expression` field:
 ```
-execution took (\d+)
+# Configures Ops Agent to collect telemetry from the app and restart Ops Agent.
+
+set -e
+
+# Create a back up of the existing file so existing configurations are not lost.
+sudo cp /etc/google-cloud-ops-agent/config.yaml /etc/google-cloud-ops-agent/config.yaml.bak
+
+# Configure the Ops Agent.
+sudo tee /etc/google-cloud-ops-agent/config.yaml > /dev/null << EOF
+metrics:
+  receivers:
+    apache:
+      type: apache
+  service:
+    pipelines:
+      apache:
+        receivers:
+          - apache
+logging:
+  receivers:
+    apache_access:
+      type: apache_access
+    apache_error:
+      type: apache_error
+  service:
+    pipelines:
+      apache:
+        receivers:
+          - apache_access
+          - apache_error
+EOF
+
+sudo service google-cloud-ops-agent restart
+sleep 60
+```
+
+
+</div>
 
 ```
 ### Congratulations !!!!
