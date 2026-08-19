@@ -26,7 +26,7 @@ clear
 
 # Welcome message
 echo "${CYAN_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
-echo "${CYAN_TEXT}${BOLD_TEXT}      WELCOME TO DR. ABHISHEK'S CLOUD TUTORIAL -LIKE THE VIDEO    ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}      WELCOME TO CLOUD WALE JIJU    ${RESET_FORMAT}"
 echo "${CYAN_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
 echo
 
