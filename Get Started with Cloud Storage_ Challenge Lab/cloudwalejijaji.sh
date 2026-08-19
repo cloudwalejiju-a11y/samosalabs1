@@ -17,7 +17,7 @@ clear
 
 # Welcome message
 echo "${PURPLE_TEXT}${BOLD_TEXT}=============================================${RESET_FORMAT}"
-echo "${PURPLE_TEXT}${BOLD_TEXT}    WELCOME TO DR. ABHISHEK CLOUD TUTORIALS   ${RESET_FORMAT}"
+echo "${PURPLE_TEXT}${BOLD_TEXT}   welcome TO JIJAJI GHR   ${RESET_FORMAT}"
 echo "${PURPLE_TEXT}${BOLD_TEXT}=============================================${RESET_FORMAT}"
 echo
 
